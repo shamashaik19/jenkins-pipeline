@@ -23,7 +23,7 @@ pipeline {
         stage('Run Docker Container') {
             steps {
                 script {
-                    sh 'docker run -d -p 2000:80 $IMAGE_NAME'
+                    sh 'docker run -d -p 2002:80 $IMAGE_NAME'
                 }
             }
         }
