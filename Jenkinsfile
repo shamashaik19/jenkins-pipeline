@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "my-jenkins-pipeline-app:latest"
+        IMAGE_NAME = "my-jenkins-pipeline:latest"
     }
 
     stages {
